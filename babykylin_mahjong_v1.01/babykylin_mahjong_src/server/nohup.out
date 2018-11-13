@@ -1,0 +1,27 @@
+account server is listening on 9000
+dealer api is listening on localhost:12581
+game server is listening on localhost:9003
+client service is listening on port 9001
+room service is listening on localhost:9002
+game server is listening on 10000
+game server registered.
+	id:172.16.4.101:10000
+	addr:172.16.4.101
+	http port:9003
+	socket clientport:10000
+172.16.4.101:10000
+5f07171cb498d75fd82ecd0de85df3a9
+invalid parameters
+{ userid: '14',
+  name: '子车雀圣',
+  roomid: '314347',
+  sign: '069f55e0c815d4b38629981bbd05e8af' }
+069f55e0c815d4b38629981bbd05e8af
+{ token: '98fb6d0745788ee718e65725916c57b2',
+  errcode: 0,
+  errmsg: 'ok' }
+UPDATE t_users SET roomid = "314347" WHERE userid = "14"
+314347
+98fb6d0745788ee718e65725916c57b2
+1541982802652
+ef8cfc86d281520b0219fef79a757a13
